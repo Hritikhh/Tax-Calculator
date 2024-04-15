@@ -21,7 +21,8 @@ function submitForm() {
 
     // Validating gross income
     if (isNaN(grossIncome) || grossIncome < 0) {
-        showError('grossIncomeError', 'Gross income is required or invalid');
+        showError('grossIncomeError', 'Gross annual income is your total salary in a year before any deductions ');
+        showError('grossIncomeErroris', 'Gross income required or invalid');
         isValid = false;
     }
 

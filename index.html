@@ -18,21 +18,22 @@
             <form id="taxForm">
                 <div class="form-group">
                     <label for="grossIncome">Enter Gross Annual Income:
-                      <span class="error-icon" id="grossIncomeError" title="Gross income is required or invalid">!</span>
+                      <span class="error-icon" id="grossIncomeError" title="Gross income is required or invalid">?</span>
                     </label>
                     <div class="input-group">
-                        <input type="number" class="form-control" id="grossIncome" placeholder="Enter gross annual income" data-toggle="tooltip" title="Your total salary in a year before any deductions." required>
+                        <input type="text" class="form-control" id="grossIncome" placeholder="Enter gross annual income" data-toggle="tooltip" title="Your total salary in a year before any deductions." required>
+                        <span class="error-icon" id="grossIncomeErroris" title="Gross income is required or invalid">!</span>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="extraIncome">Enter Extra Income:<span class="error-icon" id="extraIncomeError" title="Extra income is required or invalid">!</span></label>
+                    <label for="extraIncome">Enter Extra Income:<span class="error-icon" id="extraIncomeError" title="Extra income is required or invalid">?</span></label>
                     <div class="input-group">
-                        <input type="number" class="form-control" id="extraIncome" placeholder="Enter extra income from other sources" data-toggle="tooltip" title="Any additional income you earn, such as freelance work, investment returns, etc.">
+                        <input type="text" class="form-control" id="extraIncome" placeholder="Enter extra income from other sources" data-toggle="tooltip" title="Any additional income you earn, such as freelance work, investment returns, etc.">
                         
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="age">Select Age Group:<span class="error-icon" id="ageError" title="Age group is required">!</span></label>
+                    <label for="age">Select Age Group:<span class="error-icon" id="ageError" title="Age group is required">?</span></label>
                     <div class="input-group">
                         <select class="form-control" id="age" data-toggle="tooltip" title="Choose your age group:">
                             <option value="">Select age group</option>
@@ -44,9 +45,9 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="deductions">Enter Total Applicable Deductions:<span class="error-icon" id="deductionsError" title="Deductions are required or invalid">!</span></label>
+                    <label for="deductions">Enter Total Applicable Deductions:<span class="error-icon" id="deductionsError" title="Deductions are required or invalid">?</span></label>
                     <div class="input-group">
-                        <input type="number" class="form-control" id="deductions" placeholder="Add total applicable deductions" data-toggle="tooltip" title="Deductions that reduce your taxable income, such as expenses or investments.">
+                        <input type="text" class="form-control" id="deductions" placeholder="Add total applicable deductions" data-toggle="tooltip" title="Deductions that reduce your taxable income, such as expenses or investments.">
                         
                     </div>
                 </div>
